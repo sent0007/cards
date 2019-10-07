@@ -56,17 +56,16 @@ html {
 }
 
 .cards div {
-  text-align: center
+  text-align: center;
 }
 
-.cards a{
+.cards a {
   display: inline-block;
   padding: .5em .75em;
   background-color: #ccc;
   border-radius: 4px;
   color: #000;
   text-decoration: none;
-
 }
 
 .cards a:hover {
