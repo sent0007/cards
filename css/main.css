@@ -2,7 +2,7 @@ html {
   box-sizing: border-box;
   background-color: #f2f2f2;
   font-family: Georgia, serif;
-  line-height:1.5;
+  line-height: 1.5;
 }
 
 *, *::before, *::after {
@@ -52,7 +52,7 @@ html {
 .cards dd {
   display: inline-block;
   margin: 0;
-  min-width:9em;
+  min-width: 9em;
 }
 
 .cards div {
@@ -62,9 +62,14 @@ html {
 .cards a{
   display: inline-block;
   padding: .5em .75em;
-  background-color:#ccc;
+  background-color: #ccc;
   border-radius: 4px;
   color: #000;
   text-decoration: none;
 
+}
+
+.cards a:hover {
+  background-color: #333;
+  colr: #fff;
 }
